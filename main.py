@@ -11,5 +11,5 @@ if __name__ == "__main__":
     resultados = lanzar_dados(amount, sides)
     
     for i, resultado in enumerate(resultados, start=1):
-        print(f"Tirada #{i} - el dado muestra la cara: {resultado}")
+        print(f"Lanzamiento {i} número obtenido {resultado}")
         time.sleep(5)
