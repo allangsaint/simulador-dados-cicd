@@ -6,7 +6,7 @@ def lanzar_dados(amount, sides):
 
 if __name__ == "__main__":
     amount = 5
-    sides = 6
+    sides = 20
     
     resultados = lanzar_dados(amount, sides)
     
