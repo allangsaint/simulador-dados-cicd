@@ -5,9 +5,9 @@ def lanzar_dados(amount, sides):
     return dice.roll(f"{amount}d{sides}")
 
 if __name__ == "__main__":
-    amount = 5
+    amount = 6
     sides = 20
-    
+  
     resultados = lanzar_dados(amount, sides)
     
     for i, resultado in enumerate(resultados, start=1):
